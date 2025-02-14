@@ -25,11 +25,11 @@ export default function Login() {
           />
         </div>
         <div className="lg:flex lg:space-x-4 lg:mt-4">
-          <button className="lg:bg-blue-500 lg:text-white lg:font-bold lg:py-2 lg:px-4 lg:rounded">
+          <button className="lg:bg-red-500 lg:text-white lg:font-bold lg:py-2 lg:px-4 lg:rounded">
             Submit
           </button>
           <Link to="/sigup">
-            <button className="lg:bg-green-500 lg:text-white lg:font-bold lg:py-2 lg:px-4 lg:rounded">
+            <button className="lg:bg-yellow-500 lg:text-white lg:font-bold lg:py-2 lg:px-4 lg:rounded">
               Sign up
             </button>
           </Link>
